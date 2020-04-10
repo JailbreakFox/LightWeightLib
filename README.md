@@ -4,7 +4,7 @@ Some LightWeight Library Gather.
 ## glog
 Google logger
 
-### 1.install
+### install
 ```sh
 # 1)git clone glog installer  
 git clone https://github.com/google/glog
