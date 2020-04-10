@@ -24,3 +24,4 @@ sudo make install
 # 5)添加CmakeList.txt
 find_package(glog REQUIRED)  
 target_link_libraries(*** glog)
+```
