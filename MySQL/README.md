@@ -35,14 +35,29 @@ Enter password:
 mysql>set password for root@localhost = password('123456');
 ```
 
+*3、MySQL Connector/C++使用安装*
+如果希望使用MySQL Connector/C++，则需要安装一些特定的库。  
+```sh
+# 安装MySQL Connector/C++的官方库
+sudo apt install libmysqlcppconn-dev
+sudo apt install libmysqlcppconn7v5
+```
+
 ## 运行项目中的例子
-*1、过程化的MySQL C API*
+*1、过程化的MySQL C API*  
 上述两个步骤已经将库文件安装，借助.cmake文件可寻找到对应的库文件，项目文件在MYSQL_C_API下。  
 至此已经可以使用"过程化的MySQL C API"
 
-*2、MySQL++ API连接MySQL*
+*2、MySQL++ API连接MySQL*  
 
-*3、MySQL Connector/C++*
-MySQL Connector/C++是MySQL C API的C++封装
+*3、MySQL Connector/C++*  
+MySQL Connector/C++是MySQL C API的C++封装，项目文件在MYSQL_CONNECTOR_CPP_API下。  
 
 ## MySQL与C++的使用
+*1、过程化的MySQL C API*  
+详细内容查看 https://dev.mysql.com/doc/c-api/8.0/en/
+
+*2、MySQL++ API连接MySQL*
+
+*3、MySQL Connector/C++*  
+详细内容查看 https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-examples-complete-example-1.html
